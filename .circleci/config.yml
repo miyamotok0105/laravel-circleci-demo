@@ -8,6 +8,8 @@ jobs:
     docker:
       - image: circleci/php:7.3-node-browsers
       - image: circleci/mariadb:10.4
+    environment:
+      - DB_CONNECTION: circle_testing
     working_directory: ~/ci-demo
     steps:
       - checkout
@@ -18,8 +20,6 @@ jobs:
           # command: |
           #   sudo apt-get update
           #   sudo apt-get install -y libpng-dev
-      - environment:
-        - DB_CONNECTION: circle_testing
       - run:
           name: Docker php extensions install
           command: sudo docker-php-ext-install pdo_mysql
