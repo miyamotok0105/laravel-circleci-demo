@@ -5,8 +5,8 @@
 Qiita:  
 [誰でも簡単! CircleCi で PHPUnit を実行してみよう!!](https://qiita.com/KeisukeKudo/items/d058b359361e622dcc6f)  
 
-master status  
+`master status`  
 [![CircleCI](https://circleci.com/gh/KeisukeKudo/laravel-circleci-demo/tree/master.svg?style=svg)](https://circleci.com/gh/KeisukeKudo/laravel-circleci-demo/tree/master)  
 
-fails-demo status  
+`fails-demo status`  
 [![CircleCI](https://circleci.com/gh/KeisukeKudo/laravel-circleci-demo/tree/fails-demo.svg?style=svg)](https://circleci.com/gh/KeisukeKudo/laravel-circleci-demo/tree/fails-demo)  
